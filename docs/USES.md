@@ -5,8 +5,8 @@ numbers can describe a transformation, a collection of data, or a system of
 equations. Matrix operations give us a consistent way to combine and transform
 that information.
 
-FlegmMTX is a small, dependency-free Python library for the everyday 2D
-matrix operations that make these ideas practical.
+FlegmMTX is a small, dependency-free Python library for everyday 2D matrix
+operations that make these ideas practical.
 
 ## Why matrices matter
 
@@ -167,8 +167,8 @@ The phrase "3D matrix" can mean two different things:
 1. A matrix used for 3D geometry. This is usually a 4x4 matrix, and FlegmMTX
    supports it because it supports arbitrary rectangular 2D matrices.
 2. A 3D array, such as `layers x rows x columns`. This is technically a tensor
-   rather than a single 2D matrix, and FlegmMTX does not currently provide
-   tensor operations or a 3D `shape()` result.
+  rather than a single 2D matrix, and FlegmMTX does not currently provide
+  tensor operations or a 3D `shape()` result.
 
 For a small 3D dataset, keep each layer as a normal matrix and process the
 layers with Python:
