@@ -1,8 +1,13 @@
-README.md
+LICENSE
 pyproject.toml
+docs/README.md
+docs/SYNTAX.md
+docs/USES.md
 src/flegmmtx/__init__.py
+src/flegmmtx/cli.py
 src/flegmmtx/core.py
 src/flegmmtx.egg-info/PKG-INFO
 src/flegmmtx.egg-info/SOURCES.txt
 src/flegmmtx.egg-info/dependency_links.txt
+src/flegmmtx.egg-info/entry_points.txt
 src/flegmmtx.egg-info/top_level.txt

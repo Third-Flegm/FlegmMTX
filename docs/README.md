@@ -12,6 +12,30 @@ python -m pip install -e .
 
 The package requires Python 3.10 or newer.
 
+## Documentation command
+
+After installing the library, copy the documentation files into the current
+folder:
+
+```bash
+flegmmtx --docs
+```
+
+To copy them into a custom folder instead:
+
+```bash
+flegmmtx --docs my-docs
+```
+
+This copies `README.md`, `USES.md`, and `SYNTAX.md`. Use `flegmmtx --help` to
+see all command options. Existing files are protected by default; use
+`--force` when you want to replace them:
+
+```bash
+flegmmtx --docs --force
+flegmmtx --docs my-docs --force
+```
+
 ## Quick start
 
 ```python
