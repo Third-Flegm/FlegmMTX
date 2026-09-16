@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/flegmmtx/__init__.py
+src/flegmmtx/core.py
+src/flegmmtx.egg-info/PKG-INFO
+src/flegmmtx.egg-info/SOURCES.txt
+src/flegmmtx.egg-info/dependency_links.txt
+src/flegmmtx.egg-info/top_level.txt
