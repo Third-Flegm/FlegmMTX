@@ -12,29 +12,60 @@ python -m pip install -e .
 
 The package requires Python 3.10 or newer.
 
-## Documentation command
+## Commands
 
-After installing the library, copy the documentation files into the current
-folder:
+Install the library from the project directory:
+
+```bash
+python -m pip install -e .
+```
+
+Show the command-line help:
+
+```bash
+flegmmtx --help
+```
+
+Show the installed version:
+
+```bash
+flegmmtx --version
+```
+
+Copy all documentation files into the current folder:
 
 ```bash
 flegmmtx --docs
 ```
 
-To copy them into a custom folder instead:
+Copy all documentation files into a custom folder. The folder is created when
+it does not exist:
 
 ```bash
 flegmmtx --docs my-docs
 ```
 
-This copies `README.md`, `USES.md`, and `SYNTAX.md`. Use `flegmmtx --help` to
-see all command options. Existing files are protected by default; use
-`--force` when you want to replace them:
+Overwrite documentation files that already exist:
 
 ```bash
 flegmmtx --docs --force
 flegmmtx --docs my-docs --force
 ```
+
+Run the basic example:
+
+```bash
+python examples/1.py
+```
+
+Run the layered-data example:
+
+```bash
+python examples/3d.py
+```
+
+The `--docs` command copies `README.md`, `USES.md`, and `SYNTAX.md`.
+Existing files are protected unless `--force` is provided.
 
 ## Quick start
 
@@ -96,11 +127,3 @@ represent 3D graphics transformations as ordinary 4x4 matrices, because a 4x4
 matrix is still a 2D matrix. Layered 3D arrays require tensor operations that
 are outside the current API.
 
-## Example
-
-Run the included example from the project directory:
-
-```bash
-python -m pip install -e .
-python examples/1.py
-```
