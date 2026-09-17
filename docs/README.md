@@ -1,6 +1,6 @@
 # flegmmtx
 
-Small, practical helpers for working with numeric 2D matrices in Python.
+Small, practical helpers for working with numeric 2D and 3D matrices in Python.
 
 ## Installation
 
