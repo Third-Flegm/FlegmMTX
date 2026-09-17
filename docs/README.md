@@ -4,7 +4,19 @@ Small, practical helpers for working with numeric 2D matrices in Python.
 
 ## Installation
 
-Install the package locally from the project directory:
+If published on PyPi:
+
+ˋˋˋbash
+python -m pip install flegmmtx
+ˋˋˋ
+
+Else if not on PyPi install the package from this repository:
+
+```bash
+python -m pip install githttps://github.com/Third-Flegm/FlegmMTX
+```
+
+Or install the package locally from the project directory:
 
 ```bash
 python -m pip install -e .
