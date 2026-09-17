@@ -16,6 +16,7 @@ Else if not on PyPi install the package from this repository:
 python -m pip install githttps://github.com/Third-Flegm/FlegmMTX
 ```
 
+
 Or install the package locally from the project directory:
 
 ```bash
