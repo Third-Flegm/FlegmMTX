@@ -6,9 +6,9 @@ Small, practical helpers for working with numeric 2D matrices in Python.
 
 If published on PyPi:
 
-ˋˋˋbash
+```bash
 python -m pip install flegmmtx
-ˋˋˋ
+```
 
 Else if not on PyPi install the package from this repository:
 
